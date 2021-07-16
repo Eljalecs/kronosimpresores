@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Kronos Impresores Inicio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/kronosimpresores.css">
+    <script src="js/kronosimpresores.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Así imprimimos</title>
+    <link rel="stylesheet" href="css/flipbook.css">
+    <script src="https://kit.fontawesome.com/b0f29e9bfe.js" crossorigin="anonymous"></script>
+    <script defer src="js/flipbook.js"></script>
+</head>
+<body>
+    <div class="container-fluid first-container-imprimimos" style="height: 100vh;">
+        <div class="home-button">
+            <div class="home-button-img">
+                <img src="img/index_Img/botonHome.png">
+            </div>
+        </div>
+        <div class="menu-button">
+            <div class="menu-button-img">
+                <img id="btnMenu" onclick="showMenu()" src="img/index_Img/botonMenu.png">
+            </div>
+        </div>
+        <div class="text-section-imprimimos">
+            <div class="imprimimos-main-text">
+                <div class="imprimimos-tittle" style="text-align: center;">
+                    <hr>
+                    <br>
+                    <h1>
+                        CONTÁCTANOS
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div class="text-section-contacto">
+            <section class="contact-section">
+                <div class="row contact-row" style="width: 100%;">
+                    <div class="col-sm-7 contact-col">
+                        <div class="contact-form-tittle">
+                            <h2>
+                                ENVÍANOS UN MENSAJE
+                            </h2>
+                        </div>
+                            <form action="/action_page.php" class="contact-form" id="markdigForm">
+                                <div class="contact-line">
+                                <div class="contact-input-div">
+                                    <input type="text" placeholder="NOMBRE Y APELLIDO" id="markdigInputtext" required>
+                                </div>
+                                <div class="contact-input-div">
+                                    <input type="email" placeholder="CORREO" id="markdigInputemail" required>
+                                </div>
+                                <div class="contact-input-div">
+                                    <input type="number" placeholder="CELULAR O TELÉFONO" id="markdigInputphone" required>
+                                </div>
+                                <div class="contact-input-div">
+                                    <input type="text" placeholder="CIUDAD" id="markdigInputcity"required>
+                                </div>
+                                <br>
+                                <div class="contact-input-div">
+                                    <textarea rows="3" cols="10"placeholder="TU MENSAJE" id="markdigTextareatext" required></textarea>
+                                </div>
+                                </div>
+                                <div class="" style="padding-right: 50px;">
+
+                                
+                                <div class="contact-btn-div" style="text-align: right;">
+                                    <button class="contact-btnsubmit" type="submit" > ENVIAR AHORA</button>
+                                </div>
+                            </div>
+                                <br>
+                                <br>
+                            </form>
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="contact-form-tittle">
+                            <h2>
+                                LLÁMANOS
+                            </h2>
+                        </div>
+                        <div class="contact-datos">
+                            <div class="contact-descri">
+                                <p>
+                                    TELÉFONO FIJO: <br>
+                                    (1) 418 2255
+                                </p>
+                            </div>
+                            <div class="contact-descri">
+                                <p>
+                                    CELULAR: <br>
+                                    (+57) 312 478 10 69
+                                </p>
+                            </div>
+                            <div class="contact-descri">
+                                <p>
+                                    Calle 24D BIS #99-22 <br>
+                                    Bogotá, Colombia
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-form-tittle">
+                            <h2>
+                                ¿PREFIERES 
+                                POR WHATSAPP?
+                            </h2>
+                            <div>
+                                <button class="contact-btn">
+                                    <i class="fab fa-whatsapp"></i> &nbsp;
+                                    Chatea <br>
+                                    &nbsp; con nosotros
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

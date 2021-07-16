@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kronos Impresores Inicio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/kronosimpresores.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Así imprimimos</title>
+    <script src="js/kronosimpresores.js"></script>
+<style>
+* {box-sizing: border-box}
+
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.prodimp-row-buttons button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+}
+</style>
+</head>
+<body>
+    <div class="container-fluid first-container-imprimimos">
+        <div class="home-button">
+            <div class="home-button-img">
+                <img src="img/index_Img/botonHome.png">
+            </div>
+        </div>
+        <div class="menu-button">
+            <div class="menu-button-img">
+                <img id="btnMenu" onclick="showMenu()" src="img/index_Img/botonMenu.png">
+            </div>
+        </div>
+        <section class="content-section-prodimp">
+            <div class="imprimimos-main-text">
+                <div class="imprimimos-tittle" style="text-align: center;">
+                    <hr>
+                    <br>
+                    <h1>
+                        PRODUCTOS IMPRESOS
+                    </h1>
+                    <br>
+                    <br>
+                </div>
+                <br>
+            </div>
+        </section>
+    </div>
+
+<div class="container-fluid">
+
+
+<div class="row prodimp-row-buttons">
+    <button class="botones" id="abierto" onclick="changeDiv(event, 'Publicitarios')">Publicitarios</button>
+    <button class="botones" onclick="changeDiv(event, 'Institucionales')">Institucionales</button>
+    <button class="botones" onclick="changeDiv(event, 'superficies')">Grandes superficies</button>
+    <button class="botones" onclick="openCity(event, 'London')">Señalización</button>
+    <button class="botones" onclick="openCity(event, 'Paris')">Stickers</button>
+    <button class="botones" onclick="openCity(event, 'Tokyo')">Empaques</button>
+</div>
+
+<div id="London" class="tabcontent">
+    <div class="proimp-btn-description" id="Publicitarios">
+        <div class="row prodimp-content-row">
+            <div class="col-sm-6">
+                <div class="prodimp-descri-box">
+                    <div class="prodimp-img">
+                        <img src="img/prodimp_img/afiches.png">
+                    </div>
+                    <div class="prodimp-text-box">
+                        <div class="prodimp-text">
+                            <h3>AFICHES</h3>
+                            <br>
+                            <br>
+                            <h4>Tamaños desde ¼ hasta lo que requiera su campaña, en papel o sustratos rígidos. Impresos en offset o serigrafía.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--take div from index modal menu-->
+            <div class="col-sm-6 prodimp-list-col">
+                <div class="prodimp-menu-box">
+                    <div class="row sub-print-list-row">
+                        <h3>MÁS DE PUBLICITARIOS</h3>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="col-sm-6 prodimp-list-text">
+                            <p>Afiches</p>
+                            <p>Bandejas</p>
+                            <p>Banderines</p>
+                            <p>Tropezones</p>
+                            <p>Cenefas</p>
+                            <p>Colgantes</p>
+                            <p>Collarines</p>
+                            <p>Flangers</p>
+                        </div>
+                        <div class="col-sm-6 prodimp-list-text">
+                            <p>Floor graphics</p>
+                            <p>Glorificadores</p>
+                            <p>Habladores</p>
+                            <p>Puntas de góndola</p>
+                            <p>Ristras</p>
+                            <p>Saltarín</p>
+                            <p>Stopper</p>
+                            <p>Tackers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="Paris" class="tabcontent">
+    <div class="proimp-btn-description" id="Institucionales">
+        <div class="row prodimp-content-row">
+            <div class="col-sm-6">
+                <div class="prodimp-descri-box">
+                    <div class="prodimp-img">
+                        <img src="img/prodimp_img/afiches.png">
+                    </div>
+                    <div class="prodimp-text-box">
+                        <div class="prodimp-text">
+                            <h3>INSTITUCIONALES</h3>
+                            <br>
+                            <br>
+                            <h4>Tamaños desde ¼ hasta lo que requiera su campaña, en papel o sustratos rígidos. Impresos en offset o serigrafía.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--take div from index modal menu-->
+            <div class="col-sm-6 prodimp-list-col">
+                <div class="prodimp-menu-box">
+                    <div class="row sub-print-list-row">
+                        <h3>MÁS DE PUBLICITARIOS</h3>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="col-sm-6 prodimp-list-text">
+                            <p>gggg</p>
+                            <p>dddddd</p>
+                            <p>fff</p>
+                            <p>jjjjj</p>
+                            <p>Cenefas</p>
+                            <p>Colgantes</p>
+                            <p>Collarines</p>
+                            <p>Flangers</p>
+                        </div>
+                        <div class="col-sm-6 prodimp-list-text">
+                            <p>Floor graphics</p>
+                            <p>Glorificadores</p>
+                            <p>Habladores</p>
+                            <p>Puntas de góndola</p>
+                            <p>Ristras</p>
+                            <p>Saltarín</p>
+                            <p>Stopper</p>
+                            <p>Tackers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+
+    
+</div>
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("botones");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("abierto").click();
+</script>
+   
+</body>
+</html> 
