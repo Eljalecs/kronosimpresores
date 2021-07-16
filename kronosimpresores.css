@@ -1,0 +1,1234 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Thin.ttf);
+    src: url(../fonts/Montserrat-Regular.ttf);
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+    src: url(../fonts/Montserrat-Bold.ttf);
+    src: url(../fonts/Montserrat-ExtraBold.ttf);
+    src: url(../fonts/Montserrat-Light.ttf);
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {  
+    scroll-behavior: smooth;  
+}
+body { 
+    font-family: Montserrat;
+    font-style: normal;
+     }
+.fuente{
+    font-family: Montserrat-Semibold;
+    font-weight: 800;
+}
+.main-image-container{
+    height:60rem;
+    width: 100%;
+    background-image: url("../img/indexBackground.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    position: relative;
+}
+/*gray buttons home and menu*/
+.home-button,.menu-button{
+    position: absolute;
+    top: 2.25rem;
+    width: 4.4rem;
+    height: 8rem;
+}
+.menu-button{
+    right: 2.25rem;
+}
+.home-button-img, .menu-button-img:hover{
+    cursor: pointer;
+}
+.home-button{
+    left: 2.25rem;
+}
+
+/*gray buttons*/
+
+/*main index content*/
+
+.row-main-text-carousel{
+    position: absolute;
+    width: 100%;
+    top: 150px;
+    margin: auto;
+}
+.col-main-text{
+    margin-top: 100px;
+}
+.left-col-text{
+    /*background-color: pink;*/
+    width: 100%;
+    padding: 0rem 7.8rem;
+}
+
+.big-text-index{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 66.05px;
+    color: white;
+    
+}
+.medium-text-index{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 100%;
+    color: #000000;
+}
+.small-text-index{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.carousel-item img{
+    width: 100%;
+}
+
+
+.col-gray-btns{
+    /*background-color: purple;*/
+    text-align: center;
+}
+/*main index content*/
+
+/*adding float white boxes*/
+.float-boxes{
+    position: absolute;
+    /*background-color: rgba(0, 0, 0, 0.25);*/
+    top: 800px;
+    margin: auto;
+    width: 100%;
+}
+.float-boxes-row{
+    padding: 0rem 7.8rem;
+    width: 100%;
+}
+.float-box-col{
+    text-align: center;
+    /*background-color: red;*/    
+}
+.float-box-1{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    height: 100%;
+}
+.float-box-h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 100%;
+}
+.float-box-h4{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 128.5%;
+    text-align: justify;
+}
+/*close float white boxes*/
+/*gray buttons*/
+.col-gray-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.whatp-gray-btn{
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    text-align: right;
+}
+.text-gray-btn{
+    background-color: #CCCCCC;
+    display: flex;
+    width: 129px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.whatp-gray-btn h6{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 128.5%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+}
+
+.img-gray-btn{
+    position: absolute;
+    top: -10px;
+    left: -70px;
+}
+
+/*close gray buttons*/
+/*middle bar start*/
+.middle-container{
+    padding-top: 25rem;
+    padding-bottom: 7rem;
+    padding-left: 0;
+    padding-right: 0;
+    background: #FBD804;
+    
+
+}
+.row-middle{
+    margin: auto;
+    padding: 2.5rem 7rem;
+    background-color:#E3C103;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.col-middle-box h2{
+    padding: 0;
+    margin: auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 100%;
+    color: black;
+}
+
+
+/*middle bar close*/
+/*start footer */
+.cont-footer{
+    background: #FBD804;
+    padding: 0 17rem;
+    text-align: center;
+}
+.footer-black-bar{
+    background-color: black;
+    height: 15px;
+    width: 100%;
+    padding: 0;
+    margin: auto;
+}
+.social-btns-footer{
+    padding: 6rem 0;
+}
+.social-btns-footer a{
+    padding: 0 2rem 2rem 2rem;
+}
+.row-info-footer{
+    border-top: 3px solid black;
+    padding: 2rem 0;
+}
+.col-left-footer{
+    text-align: left;
+    padding:   0;
+}
+.col-right-footer{
+    text-align: right;
+    padding:   0;
+}
+.col-left-footer h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 128.5%;
+    color: black;
+}
+.col-right-footer h6, .col-left-footer h6{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: black;
+}
+
+/*close footer*/
+
+/* modal menu index box*/
+
+.modal-box-menu{
+    height: 100%;
+    width: 100%;
+    padding: 5rem 20rem;
+    opacity: 1;
+    /*transition: opacity ease-in 3s ;*/
+    background-color:  #FBD804;
+    position: absolute;
+    top: 0;
+    right: 50;
+    margin: auto;
+    display: none;
+    overflow: hidden;
+}
+.pruebamenu{
+    height: 100%;
+    width: 100%;
+    display: block;
+    transition: height 2s, width 2s;
+}
+.modal-box-content h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%; 
+}
+.modal-box-content h3 a, .print-product-h3{
+    text-decoration: none;
+    color: white;
+    transition: margin 1s, color 0.5s;
+    cursor: pointer;
+}
+.print-product-h3:hover{
+    color: black;
+    margin-left: 3rem;
+}
+.modal-box-content h3 a:hover {
+    color: black;
+    margin-left: 3rem;
+}
+.contact-button{
+    position: absolute;
+    bottom: 2.25rem;
+    width: 4.4rem;
+    height: 8rem;
+    left: 2.25rem;
+}
+
+@media only screen and (max-width: 1370px) {
+    .big-text-index{font-size: 55px; line-height: 100%;}
+    .left-col-text{padding-right: 3rem;}
+    .medium-text-index{font-size: 30px;}
+    .col-middle-box h2{font-size: 30px;}
+}
+/* close --------------------------------modal menu index box*/
+
+
+
+
+/* print product sub menu*/
+.print-product-row{
+    width: 0;
+    height: 0;
+    text-align: center;
+    overflow: hidden;
+    transition: height 2s, width 2s;
+}
+.showprintmenu{
+    width: 100%;
+    height: 360px;
+    
+}
+.print-product-list{
+    padding-left: 3rem;
+}
+.print-product-list p{
+    padding: 14px;
+    background: #E3C103;
+    border-radius: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    color: black;
+    margin: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.5s;
+    
+}
+.activeListbtn{
+    background-color: red;
+}
+.print-product-right-col{
+    padding: 10px;
+    padding-right: 100px;
+    width: 100%;
+    
+    
+}
+.sub-print-menu{
+    height: 100%;
+    background-image: url("../img/index_Img/subPrintback.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    width: 100%;
+}
+.sub-print-list-row{
+    text-align: center;
+    width: 100%;
+    padding: 40px 20px 40px 40px;
+}
+.sub-print-list-col p{
+    width: 100%;
+    border-bottom: 2px solid #FBD804;
+    text-align: left;
+    margin: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 128.5%;
+    color: black;
+    padding: 5px;
+    overflow: hidden;
+    
+}
+.printprodfocus{
+    color: black;
+    margin-left: 3rem;
+}
+/* print product sub menu-----------------close*/
+
+/*-----------------start about us styles----------------------------------------*/
+.first-container-aboutus{
+    position: relative;
+    background-color: #F6F6F6;
+    color: black;
+    background-image: url("../img/nosotros_Img/aboutusestatua1.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-x: right;
+    background-position-y: top;
+    padding: 0;
+     
+
+}
+.aboutus-row{
+    padding: 3rem 6rem 0rem 10rem;
+}
+.aboutus-tittle hr{
+    width: 30%;
+    border: 2px solid #6A6A6A;
+}
+.aboutus-main-text{
+    padding-bottom: 3rem;
+}
+.aboutus-tittle h1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 90.4%;
+}
+.aboutus-main-text h4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 135%;
+    letter-spacing: -0.01em;
+}
+/*-------- start guarantee style box------------------*/
+.aboutus-guarantee-text{
+    text-align: left;
+}
+.aboutus-guarantee-text h3 ,.aboutus-col-guarantee-h3 h3{
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 100%
+}
+.aboutus-guarantee-description{
+    display: flex;
+    align-items: center;
+    
+}
+.aboutus-col-guarantee-h3{
+    padding: 0 3rem;
+}
+.aboutus-col-guarantee-h3 h3{
+    padding-top: 28px;
+    padding-bottom: 28px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.aboutus-col-guarantee-h4 h4{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 135%;
+    letter-spacing: -0.01em;
+}
+
+/*-------- close  guarantee style box------------------*/
+
+
+/*---------------ruta de acción ---------------*/
+.aboutus-guarantee-row{
+    padding: 3rem 6rem 0rem 10rem;
+    width: 100%;
+    height: 850px;
+    overflow: hidden;
+    margin: auto;
+    
+}
+.aboutus-route-cont{
+    position: relative;
+    width: 100%;
+    padding: 0 10rem 0 10rem;
+}
+.aboutus-route-row-light1, .aboutus-route-row-dark2, 
+.aboutus-route-row-light3, .aboutus-route-row-dark4{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    padding: 0 10rem 0 10rem;
+    
+}
+.aboutus-route-row-light1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.aboutus-route-row-dark2{
+    position: absolute;
+    top: 140px;
+    left: 0;
+    z-index: 2;
+}
+.aboutus-route-row-light3{
+    position: absolute;
+    top: 280px;
+    left: 0;
+}
+.aboutus-route-row-dark4{
+    position: absolute;
+    top: 410px;
+    left: 0;
+    z-index: 2;
+}
+.aboutus-route-circle-light, .aboutus-route-circle-dark{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: -6px 6px 0px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+.aboutus-route-circle-light{
+    background-color: #f7ea86;
+}
+.aboutus-route-circle-dark{
+    background-color: #FBD804;
+}
+.aboutus-route-circle-light h3, .aboutus-route-circle-dark h3{
+    font-size: 25px;
+    padding: 30px;
+    text-align: left;
+}
+.aboutus-route-description hr{
+    border: 2px solid #C4C4C4;
+}
+.aboutus-route-description p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 135%;
+}
+
+
+
+
+/*----------------ruta de accion close------------------*/
+
+/*----------------start trabajams para ti-----------------------*/
+.aboutus-yellow-section{
+background-color: #FBD804;
+color: black;
+background-image: url("../img/nosotros_Img/aboutusestatua2.png");
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position-x: left;
+background-position-y: top;
+padding: 3rem 10rem;
+
+}
+.aboutus-yellow-tittle {
+    text-align: right;
+}
+.aboutus-yellow-tittle h3{
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 100%;
+}
+.aboutus-yellow-col{
+    text-align: center;
+}
+.aboutus-yellow-workfy h3{
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 100%;
+}
+.dark-gray-boxes{
+    padding: 10px;
+}
+
+.dark-gray-descri{
+    height: 58px;
+    width: 207px;
+    border-radius: 10px;
+    background: linear-gradient(0deg, #333333, #333333), #333333;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.dark-gray-descri p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 135%;
+    text-align: center;
+    padding: auto;
+    color: white;
+    margin: auto;
+    
+}
+/*-------------------close trabajamos para ti-------------------*/
+/*--------------start our clients----------------------------*/
+.aboutus-client-box{
+    width: 100%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.aboutus-client-row{
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+.aboutus-client-row .col-sm-3{
+    padding: 0;
+}
+
+
+/*-------------------close our clients--------------------------------*/
+
+
+/*----------star team  section---------------------*/
+.aboutus-team-section{
+    color: black;
+    background-image: url("../img/nosotros_Img/aboutsbackground.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    padding: 3rem 10rem;
+    }
+.aboutus-team-tittle {
+    text-align: right;
+}
+.aboutus-team-tittle h3{
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 100%;
+}
+.aboutus-team-col{
+    text-align: center;
+}
+.aboutus-team-content{
+    text-align: center;
+}
+.aboutus-team-name p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 135%;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    text-align: center;
+    margin: auto;
+}
+.aboutus-team-name{
+    height: 32px;
+    background: #4D4D4D;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.aboutus-team-img{
+    height: 109px;
+    
+}
+.imagen-team{
+    
+    margin: auto;
+    bottom: 0;
+    transition: height 0.5s;
+    
+}
+.aboutus-team-content:hover .imagen-team{
+    display: none;
+    height: 109px;
+}
+
+/*close ------------------team--------------*/
+
+/*-----------------close about us styles----------------------------------------*/
+
+/*-------------------styles for imprimimos-----------------------*/
+.first-container-imprimimos{
+    position: relative;
+    background-color: #F6F6F6;
+    color: black;
+    padding: 0;
+}
+.text-section-imprimimos{
+    padding: 3rem 12rem;
+}
+.row-imprimimos-tex{
+    width: 100%;
+}
+.imprimimos-main-text h4{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 135%;
+    letter-spacing: -0.01em;
+}
+.imprimimos-tittle hr{
+    border: 2px solid #6A6A6A;
+    width: 30%;
+    margin: auto;
+}
+.imprimimos-main-text h1{
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 90.4%;
+}
+.imprimimos-main-text h4{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 135%;
+    letter-spacing: -0.01em;
+}
+
+.text-section-imprimimos h2{
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 100%;
+}
+.imprimimos-tex-box{
+    
+}
+.imprimimos-col{
+    position: relative;
+    align-items: center;
+}
+.vertical-line1, .vertical-line2{
+    position: absolute; 
+    border-left: 3px solid #8E8E8E;
+    height:470px; 
+    
+    top: 6rem;
+}
+.vertical-line1{
+    right: -1rem;
+}
+.vertical-line2{
+
+    left: -1rem;
+   
+}
+.imprimimos-img-box{
+    width: 100%;
+    text-align: center;
+}
+.imprimimos-tex-box p{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 135%;
+    text-align: justify;
+    letter-spacing: -0.01em;
+}
+/* otros procesos imprimimos   */
+
+.imprimimos-others{
+    padding: 3rem 10rem;
+}
+.imprimimos-other-img{
+    padding: 1rem 0;
+}
+.imprimimos-other-box{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding: 2rem;
+}
+.imprimimos-other-text{
+    text-align: justify;
+}
+.imprimimos-other-text h6{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 128.5%;
+}
+.imprimimos-catalogo-tittle h1{
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 90.4%;
+    text-align: center;
+    letter-spacing: 0.035em;
+    color: #FBD804;
+}
+.imprimimos-catalogo-tittle h4{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 135%;
+    letter-spacing: -0.01em;
+}
+
+
+/*--------------------productos impresos styles prodimp--------------------*/
+.content-section-prodimp{
+    padding: 3rem 3rem;
+}
+.proimp-btn-description{
+    display: none;
+}
+.prodimp-row-buttons{
+    width: 100%;
+    text-align: center;
+}
+.prodimp-row-buttons button{
+    display: block;
+    background-color: #FBD804;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 135%;
+    letter-spacing: -0.01em;
+    padding: 5px;
+    margin: auto;
+    width: 210px;
+    border-radius: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.prodimp-row-buttons button.active{
+    background-color: red;
+}
+
+.prodimp-descri-box{
+    position: relative;
+    background-image: url("../img/prodimp_img/contenedor.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    height: 470px;
+    
+}
+.prodimp-img{
+    position: absolute;
+
+}
+.prodimp-img img{
+    border: 20px solid #FBD804;
+}
+.prodimp-text-box{
+    padding-left: 5rem ;
+}
+.prodimp-text{
+    padding: 3rem 5rem 4rem 20rem;
+    height: 100%;
+}
+.prodimp-text h3{
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 100%;
+}
+.prodimp-text h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 135%;
+    text-align: justify;
+    letter-spacing: -0.01em;
+}
+.prodimp-list-col{
+    padding: 0 5rem;
+}
+.prodimp-menu-box{
+    background-color: white;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+.sub-print-list-row h3{
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 100%;
+    margin-left: 16px;
+}
+.prodimp-list-text{
+    padding: 1rem;
+}
+.prodimp-list-text p{
+    width: 100%;
+    border-bottom: 2px solid #FBD804;
+    text-align: left;
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 135%;
+    text-align: justify;
+    letter-spacing: -0.01em;
+    padding: 5px 10px;
+}
+
+
+/*---------------star marketing digital styles------------*/
+
+
+.markdig-maintext , .markdig-descritext , .markdig-listtext{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 135%;
+    letter-spacing: -0.01em;
+}
+
+.markdig-subtittle{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 100%;
+}
+.markdig-pagweb-tittle-box{
+    text-align: center;
+}
+.markdig-pagweb-tittle{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 100%;
+    color: #E3C103;
+}
+.markdig-descritext span{
+    font-weight: 600;
+}
+.markdig-descritext{
+    padding-bottom: 60px;
+}
+.markdig-ul{
+    padding-left: 40px;
+}
+
+/*--styles for float menu buttons---*/
+.markdig-float-col{
+    position: fixed;
+    right: 0;
+    top: 210px;
+    transition: all  1s;
+    overflow: hidden;
+    width: 100%;    
+}
+.sticky{
+    top: 30px;
+    position: fixed;
+}
+.markdig-float-box{
+    padding-bottom: 10px;
+    padding-right: 90px;
+}
+.markdig-float-btn-box{
+    padding-bottom: 10px;
+}
+.markdig-btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.markdig-btn:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+.markdig-btn-name{
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 100%;
+    color: #E3C103;
+}
+.markdig-btn-img{
+    right: 20px;
+    margin: auto;
+    position: absolute;
+}
+.markdig-btn-img img{
+    width: 64px;
+    left: 415px !important;
+    float: right !important;
+}
+
+/*----gray btn----*/
+.markdig-gray-btn{
+    position: relative;
+    display: inline-block;
+    padding: 20px 0;
+    text-align: center;
+}
+.msg-gray-text{
+    background-color: #CCCCCC;
+    width: 380px;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.msg-gray-text h6{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 128.5%;
+    right: 0;
+    width: 100%;
+}
+.msg-gray-img{
+    position: absolute;
+    top: -15px;
+    left: -70px;
+}
+.msg-gray-img img{
+    width: 160px;
+}
+/*-----form cotizar ahora styles -------*/
+.markdig-cotizar-cont{
+    padding: 40px 20px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.markdig-cotizar-tittle h3{
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.markdig-cotizar-tittle hr{
+    border: 1px solid #000000;
+}
+.markdig-form{
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+.showmarkdigform{
+    height: 330px;
+}
+.mrkdig-input-div{
+    padding-bottom: 10px;
+}
+.mrkdig-input-div input ,.mrkdig-input-div textarea{
+    width: 100%;
+    background: #F6F6F6;
+    box-shadow: inset 0px 0px 10px -2px rgba(0, 0, 0, 0.25);
+    border: none;
+    padding: 5px;
+
+}
+.mrkdig-input-div input:focus{
+    outline: none;
+}
+.mrkdig-input-div input::placeholder,.mrkdig-input-div textarea::placeholder{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 135%;
+    text-align: justify;
+    letter-spacing: -0.01em;
+    color: black;
+}
+
+.markdig-btnsubmit{
+    background: #FBD804;
+    border-radius: 19px;
+    float: right;
+    width: 190px;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 135%;
+    text-align: center;
+    letter-spacing: -0.01em;
+}
+
+/* styles for hide/show form*/
+.mrkdigdow{
+    width: 100%;
+    text-align: center;
+}
+.fa-angle-down{
+    color: #FBD804;
+    font-size: 40px;
+    margin: 0;
+}
+.fa-angle-down:hover{
+    cursor: pointer;
+}
+@media only screen and (max-width: 1370px) {
+    .markdig-maintext{font-size: 18px;}
+    .markdig-subtittle{font-size: 28px;}
+    .markdig-pagweb-tittle{font-size: 28px;}
+    .msg-gray-text{
+        display: flex;
+        width: 200px;
+        height: 68px;
+    }
+    .msg-gray-text{width: 250px;}
+
+    .msg-gray-text h6{font-size: 15px;}
+    .msg-gray-img img{width: 130px;}
+    .msg-gray-img{top: -10px;}
+    .markdig-btn-name{font-size: 22px;font-weight: 800;}
+    .markdig-btn-img img{width: 50px;}
+}
+@media only screen and (max-width: 800px) {
+    .markdig-maintext{
+        font-size: 15px;
+  }
+  }
+
+
+
+/*---------------clos markdig----------------*/
+
+
+
+/*------------ start experiencia de marca styles, expmar ------------*/
+.expmar-float-yellow-box{
+    background: #FBD804;
+    width: 100%;
+    height: 234px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+.expmar-float-yellow-content{
+    text-align: center;
+}
+
+.expmar-yellow-tittle{
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 100%;
+    width: 100%;
+    
+}
+.expmar-yellow-descri{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 128.5%;
+}
+
+/*-------------------start contact styles ---------------------*/
+.text-section-contacto{
+    padding: 1rem 12rem;
+}
+.contact-section{
+    background-color: white;
+    padding: 4rem;
+    padding-bottom: 2rem;
+}
+.contact-form-tittle {
+    text-align: center;
+}
+.contact-col{
+    padding-right: 50px;
+   
+}
+.contact-line{
+    border-right: 3px solid #E5E5E5;
+    padding-right: 50px;
+}
+
+.contact-form-tittle h2{
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 100%;
+    color: #E3C103;
+    padding-bottom: 50px;
+}
+.contact-input-div{
+    padding: 10px;
+}
+.contact-input-div input, .contact-input-div textarea{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+
+}
+.contact-input-div textarea{
+    border: 2px solid black;
+}
+.contact-input-div input::placeholder,.contact-input-div textarea::placeholder{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 135%;
+    text-align: justify;
+    letter-spacing: -0.01em;
+    color: black;
+}
+.contact-btnsubmit{
+    border: 5px solid #FBD804;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 135%;
+}
+.contact-descri p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 135%;
+    letter-spacing: -0.01em;
+}
+.contact-btn{
+    display: flex;
+    align-items: center;
+    background-color: #FBD804;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 100%;
+    color: black;
+    padding: 30px;
+    border-radius: 60px;
+    margin: auto;
+}
+.fa-whatsapp{
+    font-size: 56px;
+    color: black;
+}
+
+/*padding sides
+background: #FBD804; light gray
+#FBD804 yellow
+
+padding: 0rem 7.8rem;
+*/
